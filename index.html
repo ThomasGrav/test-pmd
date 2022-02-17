@@ -1,12 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <title>Articles&News myBatch</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header class="header">
+        <div class="wrapper">
+            <div class="burger">
+                <img src="assets/icones/menu.png" class="icon" alt="icon_menu">
+            </div>
+            <div class="logo">
+                <img src="assets/images/logo.png" class="logo" alt="logo">
+            </div>
+            <div class="user"> 
+                <img src="assets/icones/user.png" class="icon" alt="icon_user">
+                <span class="user_line"></span>
+                <input type="button" class="sub_btn" value="S'abonner">
+            </div>
+        </div>
+    </header>
+<!--
+    <nav class="nav">
+        <ul class="wrapper">
+            <li><img src="assets/icones/home.png" alt=""></li>
+            <li><img src="" alt=""></li>
+            <li><a href="">Mon suivi</a></li>
+            <li><a href="">Mes favoris</a></li>
+            <li><a href="">Articles et news</a></li>
+        </ul>
+    </nav>
+-->
+    <main>
+        <div class="search">
+            <div class="search_fill">
+                <img src="assets/icones/search.png" class="icon" alt="icon_search">
+                <span>Rechercher...</span>
+            </div>
+            <div class="search_sort">
+                <span>Trier par :</span>
+                <button type="button" class="btn_dropdown" data-toggle="dropdown"><span class="date_btn">Date</span>
+                <img src="assets/icones/next.png" class="icon" alt="icon_sort">
+            </div>
+        </div>
+        <article class="article">
+            <article class="article_specific">
+                <div>
+                    <img src="assets/images/img_diet.jpeg" class="article_img" alt="">
+                    <img src="assets/icones/checked.png" class="icon article_icon" alt="icon_checked">
+                    <div>
+                        <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, architecto.</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem consequatur iure et illo dolore, cupiditate maiores odit. Ipsam ducimus quisquam nam praesentium eius voluptates possimus obcaecati corrupti deleniti, ratione, sapiente consectetur quibusdam inventore numquam assumenda consequatur dolor beatae maiores asperiores veritatis, accusantium sunt itaque? Quibusdam nesciunt nihil aspernatur quos libero?</p>
+                        <p>
+                            <span class="article_date">Publié hier à 06h42, mis à jour hier à 07h01</span>
+                            <span class="article_author">Le Monde avec AFP</span>
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article class="article_specific">
+                <img src="assets/images/img_diet.jpeg" class="article_img" alt="">
+                <img src="assets/icones/group.png" class="icon article_icon" alt="icon_group">
+                <div>
+                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, architecto.</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem consequatur iure et illo dolore, cupiditate maiores odit. Ipsam ducimus quisquam nam praesentium eius voluptates possimus obcaecati corrupti deleniti, ratione, sapiente consectetur quibusdam inventore numquam assumenda consequatur dolor beatae maiores asperiores veritatis, accusantium sunt itaque? Quibusdam nesciunt nihil aspernatur quos libero?</p>
+                    <p>
+                        <span class="article_date">Publié hier à 06h42, mis à jour hier à 07h01</span>
+                        <span class="article_author">Le Monde avec AFP</span>
+                    </p>
+                </div>
+            </article>
+            <article class="article_specific">
+                <img src="assets/images/img_diet.jpeg" class="article_img" alt="">
+                <img src="assets/icones/checked.png" class="icon article_icon" alt="">
+                <div>
+                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, architecto.</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem consequatur iure et illo dolore, cupiditate maiores odit. Ipsam ducimus quisquam nam praesentium eius voluptates possimus obcaecati corrupti deleniti, ratione, sapiente consectetur quibusdam inventore numquam assumenda consequatur dolor beatae maiores asperiores veritatis, accusantium sunt itaque? Quibusdam nesciunt nihil aspernatur quos libero?</p>
+                     <p>
+                        <span class="article_date">Publié hier à 06h42, mis à jour hier à 07h01</span>
+                        <span class="article_author">Le Monde avec AFP</span>
+                    </p>
+                </div>
+            </article>
+            <article class="article_specific">
+                <img src="assets/images/img_diet.jpeg" class="article_img" alt="">
+                <img src="assets/icones/group.png" class="icon article_icon" alt="icon_group">
+                <div>
+                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, architecto.</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem consequatur iure et illo dolore, cupiditate maiores odit. Ipsam ducimus quisquam nam praesentium eius voluptates possimus obcaecati corrupti deleniti, ratione, sapiente consectetur quibusdam inventore numquam assumenda consequatur dolor beatae maiores asperiores veritatis, accusantium sunt itaque? Quibusdam nesciunt nihil aspernatur quos libero?</p>
+                    <p>
+                        <span class="article_date">Publié hier à 06h42, mis à jour hier à 07h01</span>
+                        <span class="article_author">Le Monde avec AFP</span>
+                    </p>
+                </div>
+            </article>
+            <article class="article_specific">
+                <img src="assets/images/img_diet.jpeg" class="article_img" alt="">
+                <img src="assets/icones/checked.png" class="icon article_icon" alt="">
+                <div>
+                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, architecto.</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem consequatur iure et illo dolore, cupiditate maiores odit. Ipsam ducimus quisquam nam praesentium eius voluptates possimus obcaecati corrupti deleniti, ratione, sapiente consectetur quibusdam inventore numquam assumenda consequatur dolor beatae maiores asperiores veritatis, accusantium sunt itaque? Quibusdam nesciunt nihil aspernatur quos libero?</p>
+                     <p>
+                        <span class="article_date">Publié hier à 06h42, mis à jour hier à 07h01</span>
+                        <span class="article_author">Le Monde avec AFP</span>
+                    </p>
+                </div>
+            </article>
+        </article>
+    </main>
+
+    <footer>
+        
+    </footer>
 </body>
 </html>
