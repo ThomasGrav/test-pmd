@@ -77,6 +77,11 @@ header input {
     font-size: small;
 }
 
+.login_info span:hover {
+    transition-delay: .1s;
+    text-decoration: underline;
+}
+
 .sub_btn {
     background-color: #00e4d1;
     border-radius: 5px;
@@ -277,7 +282,7 @@ nav a:hover {
     display: flex;
     justify-content: space-evenly;
     align-content: center;
-    margin-top: 5%;
+    padding: 5% 0;
 }
 
 .footer_info {
