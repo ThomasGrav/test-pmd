@@ -6,115 +6,211 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="stylesheet" href="assets/styles/reset.css">
-    <title>Articles&News myBatch</title>
+    <title>Tous les derniers articles myBatch</title>
 </head>
 <body>
     <header class="header">
         <div class="wrapper">
-            <div class="burger">
-                <img src="assets/icones/menu.png" class="icon" alt="icon_menu">
+            <a href="" class="burger">
+                <img src="assets/icones/menu.svg" class="icon" alt="icon_menu">
+            </a>
+            <div class="name_logo">
+                <img src="assets/icones/logo.svg" class="logo" alt="logo">
+                <span class="header_title">myBatch</span>
             </div>
-            <div class="logo">
-                <img src="assets/images/logo.png" class="logo" alt="logo">
-            </div>
-            <div class="user"> 
-                <img src="assets/icones/user.png" class="icon" alt="icon_user">
+            <div class="user">
+                <a href="" class="login_info">
+                    <img src="assets/icones/user.svg" class="icon" alt="icon_user">
+                    <span>Se connecter</span>
+                </a>
                 <span class="user_line"></span>
-                <input type="button" class="sub_btn" value="S'abonner">
+                <a href="">
+                    <span class="sub_btn">S'abonner</span>
+                </a>
             </div>
         </div>
     </header>
-<!--
+
     <nav class="nav">
-        <ul class="wrapper">
-            <li><img src="assets/icones/home.png" alt=""></li>
-            <li><img src="" alt=""></li>
-            <li><a href="">Mon suivi</a></li>
-            <li><a href="">Mes favoris</a></li>
-            <li><a href="">Articles et news</a></li>
+        <ul class="wrapper_nav">
+            <a href="">
+                <img src="assets/icones/home.svg" class="icon" alt="icon_home">
+            </a>
+            <li>
+                <a href="">
+                    <span>Mon planning</span>
+                    <img src="assets/icones/down.svg" class="icon_down" alt="icon_sort">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span>Mon suivi</span>
+                    <img src="assets/icones/down.svg" class="icon_down" alt="icon_sort">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span>Magasins partenaires</span>
+                    <img src="assets/icones/down.svg" class="icon_down" alt="icon_sort">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span>Articles et news</span>
+                    <img src="assets/icones/down.svg" class="icon_down" alt="icon_sort">
+                </a>
+            </li>
+            <a href="">
+                <img src="assets/icones/favorite.svg" class="icon" alt="icon_favorite">
+            </a>
         </ul>
     </nav>
--->
+
     <main>
         <div class="search">
             <div class="search_fill">
-                <img src="assets/icones/search.png" class="icon" alt="icon_search">
+                <img src="assets/icones/search.svg" class="icon" alt="icon_search">
                 <span>Rechercher...</span>
             </div>
             <div class="search_sort">
                 <span>Trier par :</span>
-                <button type="button" class="btn_dropdown" data-toggle="dropdown"><span class="date_btn">Date</span>
-                <img src="assets/icones/next.png" class="icon" alt="icon_sort">
+                <a href="">
+                    <span class="date_btn">Date</span>
+                    <img src="assets/icones/down.svg" class="icon" alt="icon_sort">
+                </a>
             </div>
         </div>
-        <article class="article">
-            <article class="article_specific">
-                <div>
-                    <img src="assets/images/img_diet.jpeg" class="article_img" alt="">
-                    <img src="assets/icones/checked.png" class="icon article_icon" alt="icon_checked">
+        <section class="section">
+            <article class="article">
+                <article class="article_specific">
+                    <img src="assets/images/article1_img.jpeg" class="article_img" alt="">
+                    <img src="assets/icones/checked.svg" class="icon article_icon" alt="icon_checked">
                     <div>
-                        <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, architecto.</h2>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem consequatur iure et illo dolore, cupiditate maiores odit. Ipsam ducimus quisquam nam praesentium eius voluptates possimus obcaecati corrupti deleniti, ratione, sapiente consectetur quibusdam inventore numquam assumenda consequatur dolor beatae maiores asperiores veritatis, accusantium sunt itaque? Quibusdam nesciunt nihil aspernatur quos libero?</p>
+                        <h2>Les Français menacés par la sédentarité et le manque d'activité physique</h2>
+                        <p>L'inactivité a augmenté ces dernières années en France, comme le temps passé devant les écrans. Les femmes sont particulièrement touchées par la sédentarité.</p>
                         <p>
                             <span class="article_date">Publié hier à 06h42, mis à jour hier à 07h01</span>
-                            <span class="article_author">Le Monde avec AFP</span>
+                            <span class="article_author">LaNutrition.fr</span>
                         </p>
                     </div>
-                </div>
+                </article>
+                <article class="article_specific">
+                    <img src="assets/images/article2_img.jpeg" class="article_img" alt="">
+                    <img src="assets/icones/group.svg" class="icon article_icon" alt="icon_group">
+                    <div>
+                        <h2>Le régime sans gluten en pratique</h2>
+                        <p>Quand on souffre de maladie céliaque, allergie au blé, sensibilité au gluten ou qu'on suit le régime Seignalet ou le régime Paléo, on évite de consommer du gluten. Pourquoi le gluten doit-il être éliminé et comment y parvenir ?</p>
+                        <p>
+                            <span class="article_date">Publié le 15/02 à 09h13, mis à jour hier à 07h01</span>
+                            <span class="article_author">LaNutrition.fr</span>
+                        </p>
+                    </div>
+                </article>
+                <article class="article_specific">
+                    <img src="assets/images/article3_img.jpeg" class="article_img" alt="">
+                    <img src="assets/icones/checked.svg" class="icon article_icon" alt="">
+                    <div>
+                        <h2>10 psychostimulants naturels pour les examens</h2>
+                        <p>Brevet, bac, diplôme universitaire... On peut dans certains cas optimiser sa mémoire, mieux gérer son stress, ou encore améliorer sa concentration en prenant des substances naturelles. Les psychostimulants sont-ils efficaces et lequel choisir ? Nous en avons passé 10 en revue, du ginkgo à la taurine.</p>
+                        <p>
+                            <span class="article_date">Publié le 13/02 à 08h38, mis à jour hier à 07h01</span>
+                            <span class="article_author">LaNutrition.fr</span>
+                        </p>
+                    </div>
+                </article>
+                <article class="article_specific">
+                    <img src="assets/images/article4_img.jpeg" class="article_img" alt="">
+                    <img src="assets/icones/group.svg" class="icon article_icon" alt="icon_group">
+                    <div>
+                        <h2>Les fruits et légumes de janvier</h2>
+                        <p>Pour la planète comme pour la santé, il est préférable d’utiliser les fruits et légumes de saison. Voici la liste des fruits et légumes de janvier que l’on retrouve en France, leurs vertus santé et des recettes pour les accommoder.</p>
+                        <p>
+                            <span class="article_date">Publié le 10/02 à 11h13, mis à jour hier à 07h01</span>
+                            <span class="article_author">LaNutrition.fr</span>
+                        </p>
+                    </div>
+                </article>
+                <article class="article_specific">
+                    <img src="assets/images/article5_img.jpeg" class="article_img" alt="">
+                    <img src="assets/icones/checked.svg" class="icon article_icon" alt="">
+                    <div>
+                        <h2>Pas le temps de cuisiner ? Comment préparer des repas sains avec les meilleurs produits du supermarché</h2>
+                        <p>myBatch publie 101 recettes avec les meilleurs produits du supermarché ou comment préparer des recettes équilibrées, savoureuses et rapides à partir d’une sélection de 200 très bons produits du supermarché.</p>
+                        <p>
+                            <span class="article_date">Publié le 08/02 à 16h59, mis à jour hier à 07h01</span>
+                            <span class="article_author">LaNutrition.fr</span>
+                        </p>
+                    </div>
+                </article>
+                <a href="" class="article_more">
+                    <span>Voir plus</span>
+                </a>
             </article>
-            <article class="article_specific">
-                <img src="assets/images/img_diet.jpeg" class="article_img" alt="">
-                <img src="assets/icones/group.png" class="icon article_icon" alt="icon_group">
-                <div>
-                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, architecto.</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem consequatur iure et illo dolore, cupiditate maiores odit. Ipsam ducimus quisquam nam praesentium eius voluptates possimus obcaecati corrupti deleniti, ratione, sapiente consectetur quibusdam inventore numquam assumenda consequatur dolor beatae maiores asperiores veritatis, accusantium sunt itaque? Quibusdam nesciunt nihil aspernatur quos libero?</p>
-                    <p>
-                        <span class="article_date">Publié hier à 06h42, mis à jour hier à 07h01</span>
-                        <span class="article_author">Le Monde avec AFP</span>
-                    </p>
-                </div>
-            </article>
-            <article class="article_specific">
-                <img src="assets/images/img_diet.jpeg" class="article_img" alt="">
-                <img src="assets/icones/checked.png" class="icon article_icon" alt="">
-                <div>
-                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, architecto.</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem consequatur iure et illo dolore, cupiditate maiores odit. Ipsam ducimus quisquam nam praesentium eius voluptates possimus obcaecati corrupti deleniti, ratione, sapiente consectetur quibusdam inventore numquam assumenda consequatur dolor beatae maiores asperiores veritatis, accusantium sunt itaque? Quibusdam nesciunt nihil aspernatur quos libero?</p>
-                     <p>
-                        <span class="article_date">Publié hier à 06h42, mis à jour hier à 07h01</span>
-                        <span class="article_author">Le Monde avec AFP</span>
-                    </p>
-                </div>
-            </article>
-            <article class="article_specific">
-                <img src="assets/images/img_diet.jpeg" class="article_img" alt="">
-                <img src="assets/icones/group.png" class="icon article_icon" alt="icon_group">
-                <div>
-                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, architecto.</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem consequatur iure et illo dolore, cupiditate maiores odit. Ipsam ducimus quisquam nam praesentium eius voluptates possimus obcaecati corrupti deleniti, ratione, sapiente consectetur quibusdam inventore numquam assumenda consequatur dolor beatae maiores asperiores veritatis, accusantium sunt itaque? Quibusdam nesciunt nihil aspernatur quos libero?</p>
-                    <p>
-                        <span class="article_date">Publié hier à 06h42, mis à jour hier à 07h01</span>
-                        <span class="article_author">Le Monde avec AFP</span>
-                    </p>
-                </div>
-            </article>
-            <article class="article_specific">
-                <img src="assets/images/img_diet.jpeg" class="article_img" alt="">
-                <img src="assets/icones/checked.png" class="icon article_icon" alt="">
-                <div>
-                    <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, architecto.</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem consequatur iure et illo dolore, cupiditate maiores odit. Ipsam ducimus quisquam nam praesentium eius voluptates possimus obcaecati corrupti deleniti, ratione, sapiente consectetur quibusdam inventore numquam assumenda consequatur dolor beatae maiores asperiores veritatis, accusantium sunt itaque? Quibusdam nesciunt nihil aspernatur quos libero?</p>
-                     <p>
-                        <span class="article_date">Publié hier à 06h42, mis à jour hier à 07h01</span>
-                        <span class="article_author">Le Monde avec AFP</span>
-                    </p>
-                </div>
-            </article>
-        </article>
+            <aside class="aside">
+                <span>Publicité</span>
+                <img src="https://tpc.googlesyndication.com/simgad/4593494236126899481" alt="">
+            </aside>
+        </section>
     </main>
 
-    <footer>
-        
+    <footer class="footer"> 
+        <div>
+            <ul class="footer_info"> 
+                <li>
+                    <a href="">Mentions légales</a>
+                </li>
+                <li>
+                    <a href="">Charte du Groupe</a>
+                </li>
+                <li>
+                    <a href="">Politique de confidentialité</a>
+                </li>
+                <li>
+                    <a href="">Gestion des cookies</a>
+                </li>
+                <li>
+                    <a href="">Conditions générales</a>
+                </li>
+                <li>
+                    <a href="">Aide (FAQ)</a>
+                </li>
+            </ul>
+            <ul class="footer_network">
+                <li>
+                    <span>Suivez myBatch</span>
+                </li>
+                <li>
+                    <a href="" class="social_network">
+                        <img src="assets/icones/facebook.svg" alt="">
+                        <span>Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="social_network">
+                        <img src="assets/icones/youtube.svg" alt="">
+                        <span>Youtube</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="social_network">
+                        <img src="assets/icones/twitter.svg" alt="">
+                        <span>Twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="social_network">
+                        <img src="assets/icones/instagram.svg" alt="">
+                        <span>Instagram</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="social_network">
+                        <img src="assets/icones/snapchat.svg" alt="">
+                        <span>Snapchat</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
