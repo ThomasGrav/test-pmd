@@ -253,16 +253,11 @@ main h1 {
 }
 
 .article_img {
-    width: 100px;
-    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
     float: right;
     margin: 0 0 0 10px;
     text-align: center;
-}
-
-.article_img img {
-    height: 100%;
-    width: 100%;
 }
 
 .aside {
