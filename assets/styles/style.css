@@ -260,6 +260,11 @@ main h1 {
     text-align: center;
 }
 
+.article_img img {
+    height: 100%;
+    width: 100%;
+}
+
 .aside {
     display: flex;
     align-items: center;
