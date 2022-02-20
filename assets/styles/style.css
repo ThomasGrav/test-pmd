@@ -137,6 +137,17 @@ nav a:hover {
     border-radius: 5px;
 }
 
+main h1 {
+    margin: 5%;
+    font-size: 2rem;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #008d81;
+    text-decoration: underline;
+}
 
 .search {
     display: flex;
@@ -344,12 +355,31 @@ nav a:hover {
         display: none;
     }
 
+    h1 {
+        display: none;
+    }
+
     .aside {
         display: none;
     } 
 }
 
-@media (min-width: 780px) {
+@media (min-width: 781px) and (max-width: 1080px) {
+    nav .wrapper_nav {
+        display: none;
+    }
+
+    .name_logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .aside {
+        display: none;
+    } 
+}
+
+@media (min-width: 1081px) {
     body {
         background: rgb(255,255,255);
         background: linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(0,228,209,1) 100%);
